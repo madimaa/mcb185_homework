@@ -7,3 +7,5 @@ def is_prime(n):
 	return True
 
 print(is_prime(3103))
+print(is_prime(6))
+print(is_prime(7))

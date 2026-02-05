@@ -1,5 +1,3 @@
-i = 1
-while i == 5:
-	print('hello')
-	i = i + 2
-
+def mtk(x):
+	return (x/0.62137)
+print(mtk(5))
