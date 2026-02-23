@@ -1,17 +1,8 @@
-import math
-def mean(values):
-	total = 0
-	for value in values:
-		total = total + value
-	return total / len(values)
+import random
 
-def entropy(P):
-	if not math.isclose(mysum(P), 1.0): sys.exit('nooooo')
-	H = 0
-	for p in P: 
-		H -= p * math.log2(p)
-	return H
+def random_dna(n, X=[0.25, 0.25, 0.25, 0.25]):
+	return 
 
-x = [0.1, -3, 39, 4.5]
-print(mean(x))
-print(entropy(x))
+
+for i in range(5):
+	print(i, random_dna(10))
