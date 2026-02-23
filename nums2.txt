@@ -1,0 +1,6 @@
+cat
+dog
+rat
+cow
+pig
+bat

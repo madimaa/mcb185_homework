@@ -1,0 +1,5 @@
+rat
+pig
+crow
+sheep
+goku
