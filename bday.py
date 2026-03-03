@@ -13,7 +13,7 @@ for _ in range(iterations):
 		birthday = random.randint(0, calendar-1)
 		if birthday in classroom:
 			same_birthday = True
-			break
+			#break
 		classroom.append(birthday)
 	if same_birthday: sames += 1
 print(sames/iterations)

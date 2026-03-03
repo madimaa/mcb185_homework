@@ -14,6 +14,6 @@ if not math.isclose(total, 1.0):
 
 h = 0
 for p in probs:
-	h -+ p * math.log2(p)
+	h -= p * math.log2(p)
 
 print(f'{h:.4f}')

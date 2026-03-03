@@ -11,16 +11,15 @@ for _ in range(iterations):
 	for _ in range(people):
 		bday = random.randint(0, days-1)
 		calendar[bday] += 1
-		if calendar[bday] ==1:
+		if calendar[bday] == 1:
 			same_birthday = True
-			break
+			#break
 		
-
 	same_birthday = False
 	for v in calendar:
 		if v >= 1:
 			same_birthday = True
-			break
+			#break
 	if same_birthday: sames += 1
 	
 print(sames/iterations)

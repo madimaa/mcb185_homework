@@ -1,5 +1,6 @@
 import sys
 
+seq = sys.argv[1]
 def tm(s):
 	s = s.upper()
 	a = s.count('A')
@@ -12,4 +13,6 @@ def tm(s):
 	else:
 		return 64.9 + 41 * (c+g-16.4)/(a+c+g+t)
 
-seq = sys.argv[1]
+print(tm(seq))
+
+
