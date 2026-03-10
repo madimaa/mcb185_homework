@@ -1,3 +1,4 @@
 Sliding window:
 - Move a window along a seq and calc entropy along each window
-- 
+
+- just questions 41-49 on exam 
