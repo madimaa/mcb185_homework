@@ -1,7 +1,8 @@
 import sys
 import random
+
 cal = int(sys.argv[1])
-num = int(sys.argv[2]) #number of people
+num = int(sys.argv[2]) #number of people #DONT FORGET TO int()
 
 shared_birthdays = 0
 rounds = 50
