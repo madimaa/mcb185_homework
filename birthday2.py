@@ -14,10 +14,10 @@ cal = [0] * num_days
 found = False
 for i in range(num_ppl):
 	date = random.randint(0, num_days-1)
+	cal[date] += 1
 	if cal[date] > 1:
 		found = True
 		break
-	cal[date] += 1
 print(cal, found)
 
 

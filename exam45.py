@@ -1,3 +1,4 @@
+"""
 seq = 'ACGTACGT'
 
 for i in range(len(seq)):
@@ -8,7 +9,8 @@ for i, nt in enumerate(seq):
 	if nt == 'A': print(i) 
 	
 # both methods^ work
-
+#The real code is below
+"""
 
 seq = 'ACGTACGTTGCA'
 

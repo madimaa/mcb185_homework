@@ -13,6 +13,5 @@ for i in range(0, num_ppl):
 	for j in range(i+1, num_ppl):
 		if birthdays[i] == birthdays[j]:
 			found = True
-			break
 	if found: break
-print(found)
+print(birthdays, found)
